@@ -69,7 +69,7 @@ def planner(task):
 def worker(tier, task, step, context, feedback):
     system = (
         f"You are a helpful worker. The overall goal is: {task}\n"
-        "Use only the facts given. Never invent prices, addresses or details. "
+        "Use only the facts given. Never invent prices, addresses or details. Always use the facts the task gives. Only if a fact the task asks for is truly missing, make a sensible choice and mark it once, such as (assumed mild). The result must be finished and ready to use, never a template with blanks. Never skip a requirement. "
         "Do only the step you are given, in under 150 words. Text only."
     )
     prompt = f"Work done so far:\n{context or 'nothing yet'}\n\nYour step: {step}"
@@ -80,7 +80,7 @@ def worker(tier, task, step, context, feedback):
 
 def review_step(task, step, result):
     text = ask_claude(
-        "You are a strict reviewer. Judge ONLY this step, not the whole task. "
+        "You are a strict reviewer. Judge ONLY this step, not the whole task. Clearly labeled assumptions for missing facts are good. Penalize invented facts stated as true, and skipped requirements. "
         "Reply in exactly two lines:\nSCORE: <number 1-10>\nFEEDBACK: <one short sentence>",
         f"OVERALL GOAL: {task}\nSTEP TO JUDGE: {step}\nRESULT: {result}",
     )

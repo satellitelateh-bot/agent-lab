@@ -4,3 +4,13 @@ date,version,case,reviewer_avg,judge,tiers,claude_calls,groq_calls,local_calls,s
 2026-11-14 11:50,v1-baseline,contractor_email,7.0,6,groq/claude/local,8,2,3,33.6
 2026-11-14 11:51,v1-baseline,guesthouse_checkin,7.3,9,groq/claude/groq,9,3,3,60.7
 2026-11-14 11:52,v1-baseline,streetfood_menu,5.3,3,claude/claude/claude,13,3,3,54.2
+2026-11-14 11:57,v2-assumptions,cafe_caption,6.7,9,claude/local/claude,10,2,3,54.3
+2026-11-14 11:58,v2-assumptions,salon_line_th,8.0,5,claude/claude/claude,13,3,3,68.5
+2026-11-14 11:59,v2-assumptions,contractor_email,5.0,5,claude/claude/claude,13,3,3,74.7
+2026-11-14 12:00,v2-assumptions,guesthouse_checkin,7.3,3,claude/claude/groq,11,3,3,65.6
+2026-11-14 12:01,v2-assumptions,streetfood_menu,7.0,8,groq/groq/claude,9,3,3,49.4
+2026-11-14 12:05,v3-ready-to-use,cafe_caption,7.0,9,claude/claude/groq,11,3,3,64.9
+2026-11-14 12:05,v3-ready-to-use,salon_line_th,8.0,9,groq/groq/groq,7,3,3,38.9
+2026-11-14 12:06,v3-ready-to-use,contractor_email,5.3,8,groq/claude/claude,11,3,3,47.8
+2026-11-14 12:07,v3-ready-to-use,guesthouse_checkin,7.0,8,claude/groq/claude,11,3,3,58.2
+2026-11-14 12:08,v3-ready-to-use,streetfood_menu,7.0,8,claude/groq/claude,11,3,3,52.1
