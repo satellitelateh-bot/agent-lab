@@ -1,0 +1,6 @@
+date,version,case,reviewer_avg,judge,tiers,claude_calls,groq_calls,local_calls,seconds
+2026-11-14 11:49,v1-baseline,cafe_caption,7.0,9,claude/claude/claude,13,3,3,60.4
+2026-11-14 11:50,v1-baseline,salon_line_th,7.0,10,groq/groq/claude,9,3,3,56.3
+2026-11-14 11:50,v1-baseline,contractor_email,7.0,6,groq/claude/local,8,2,3,33.6
+2026-11-14 11:51,v1-baseline,guesthouse_checkin,7.3,9,groq/claude/groq,9,3,3,60.7
+2026-11-14 11:52,v1-baseline,streetfood_menu,5.3,3,claude/claude/claude,13,3,3,54.2

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "cafe_caption",
+    "lang": "en",
+    "task": "Bean There Cafe is a small coffee shop in Phuket Old Town (2 staff, about 80 customers a day, half are tourists, AI budget 1,000 THB a month, posts on Instagram and LINE, open 8:00-17:00, signature drink: coconut cold brew 95 THB). Plan how they start using AI, then write one Instagram caption in English."
+  },
+  {
+    "id": "salon_line_th",
+    "lang": "th",
+    "task": "ร้านทำผมเล็กๆ ในภูเก็ต มีช่าง 3 คน เปิด 10:00-19:00 ปิดทุกวันพุธ รับจองคิวผ่าน LINE ค่าตัดผมหญิง 350 บาท ทำสี 1,200 บาทขึ้นไป ช่วยวางแผนการตอบแชทลูกค้า แล้วเขียนข้อความตอบกลับสำเร็จรูปภาษาไทย 3 ข้อความ สำหรับ: ถามราคา, ขอจองคิว, ขอยกเลิกคิว"
+  },
+  {
+    "id": "contractor_email",
+    "lang": "en",
+    "task": "A small construction contractor in Phuket is renovating a villa for a foreign owner who lives abroad. Progress: demolition 100% done, electrical rough-in 60%, tiling starts next Monday, one delay of 3 days because imported tiles arrived late. Plan the update, then write a short, professional English progress email to the owner."
+  },
+  {
+    "id": "guesthouse_checkin",
+    "lang": "th+en",
+    "task": "Sea Breeze Guesthouse in Krabi Town has 8 rooms, check-in 14:00, check-out 11:00, self check-in with key box code sent on arrival day, free Wi-Fi, no breakfast, 5 minutes walk to the night market. Plan the guest messages, then write one check-in instruction message in both Thai and English."
+  },
+  {
+    "id": "streetfood_menu",
+    "lang": "en",
+    "task": "A street food stall in Bangkok sells: pad kra pao moo with fried egg 60 THB, khao man gai 50 THB, and mango sticky rice 70 THB (seasonal, March to June). Many customers are tourists. Plan the menu wording, then write short English menu descriptions for all 3 dishes, including spice level and price."
+  }
+]
